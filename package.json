@@ -1,9 +1,12 @@
 {
-  "name": "npm-clean-folder",
+  "name": "npm",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index -q"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,15 @@
     "url": "https://github.com/nuriaciscar/npm-skylab-clean-folder-nuria/issues"
   },
   "homepage": "https://github.com/nuriaciscar/npm-skylab-clean-folder-nuria#readme",
-  "description": ""
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0"
+  }
 }
